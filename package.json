@@ -1,0 +1,32 @@
+{
+  "name": "bot-template",
+  "version": "1.0.0",
+  "description": "Discord bot template",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "format": "prettier src --write"
+  },
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "discord.js": "^14.9.0",
+    "dotenv": "^16.0.3",
+    "env-var": "^7.3.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.7"
+  },
+  "engines": {
+		"node": ">=16.9"
+	},
+  "prettier": {
+    "printWidth": 120,
+    "useTabs": true,
+    "singleQuote": true,
+    "quoteProps": "as-needed",
+    "trailingComma": "none",
+    "endOfLine": "lf",
+    "semi": false
+  }
+}
